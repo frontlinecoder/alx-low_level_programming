@@ -1,11 +1,12 @@
 #include<stdio.h>
 
 /**
- * main - Prints A c program that prints the size of various types on the computer it is compiled and run on.
+ * main - Prints A c program that prints the size of various types.
  *
  *Return: Always 0;
  *
- * */
+ */
+
 
 
 int main(void)
