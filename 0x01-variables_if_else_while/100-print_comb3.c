@@ -17,16 +17,13 @@ for (num1 = 0; num1 < 9; num1++)
 
 	{
 
-		putchar(num1 % 10 + ‘0’);
-
-		putchar(num2 % 10 + ‘0’);
+		putchar((num1 % 10) + ‘0’);
+		putchar((num2 % 10) + ‘0’);
 
 		if (num1 == 8 && num2 == 9)
-
 			continue;
 
 		putchar(‘,’);
-
 		putchar(‘ ’);
 
 	}
