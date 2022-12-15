@@ -1,18 +1,15 @@
 #include <stdio.h>
-
 /**
- * main - Prints the n times table, starting with 0.
+ * print_times_table - prints time table with provided number
  *
+ *:wq
+ @n: the provided value by the user
  *Return: always 0
  */
-
 void print_times_table(int n)
-
 {
 	int row;
-
 	int column;
-
 	int product;
 
 	if (n < 0 || n >= 15)
