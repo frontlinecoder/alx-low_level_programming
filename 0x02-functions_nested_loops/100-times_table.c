@@ -1,11 +1,10 @@
 #include <stdio.h>
 /**
- * print_times_table - prints time table with provided number
- *
- *:wq
- @n: the provided value by the user
- *Return: always 0
- */
+* print_times_table - prints time table with provided number
+*
+* @n: the provided value by the user
+*Return: always 0
+*/
 void print_times_table(int n)
 {
 	int row;
