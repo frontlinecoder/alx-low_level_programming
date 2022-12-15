@@ -3,34 +3,28 @@
 /**
  *print_number - Prints integer.
  *
- * @n: param
+ * @n: Digit
  */
-
 void print_number(int n)
+
 {
-	unsigned int i, j, count;
+
+	unsigned int num = n;
 
 	if (n < 0)
-	{
-		putchar(45);
-		i = n * -1;
-	}
 
-	else
-	{
-		i = n;
-	}
-	j = i
-	count = 1;
-
-	while (j > 9)
-	{
-		j /= 10;
-		count *= 10;
-	}
-	for (; count >= 1; count /= 10)
 	{
 
-		putchar(((i / count) % 10) + 48);
+		putchar('-');
+
+		num = -num;
+
 	}
+
+	if ((num / 10) > 0)
+
+		print_number(num / 10);
+
+	putchar((num % 10) + '0');
+
 }
