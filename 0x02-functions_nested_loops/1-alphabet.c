@@ -17,13 +17,13 @@ void print_alphabet(void)
 
 	{
 
-		_putchar(c);
+		putchar(c);
 
 		c++;
 
 	}
 
-	_putchar('\n');
+	putchar('\n');
 
 	Return (0);
 
