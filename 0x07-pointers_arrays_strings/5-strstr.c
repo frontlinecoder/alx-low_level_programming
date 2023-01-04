@@ -4,7 +4,7 @@
 * _strstr - function that locates a substring
 * @haystack: string to search in
 * @needle: string to locate
-* Return: Always zero
+* Return: Always 0
 */
 
 char *_strstr(char *haystack, char *needle)
@@ -26,6 +26,7 @@ char *_strstr(char *haystack, char *needle)
 
 		}
 		if (*needle == '\0')
+
 			return (haystack);
 		haystack = starth + 1;
 	}
