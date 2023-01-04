@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 /**
-*
 * _strchr - function that locates character to string
 *
 * @s: character
