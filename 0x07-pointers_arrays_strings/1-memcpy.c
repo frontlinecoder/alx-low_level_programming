@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 /**
-*
 * char *_memcpy - copies n bytes from memory area src to memory.
 *
 * @dest: destination
