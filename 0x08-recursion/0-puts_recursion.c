@@ -1,28 +1,26 @@
 #include <stdio.h>
 
 /**
-*_puts_recursion - prints a string
-*
-*@s: pointer block of memory to fill
-*Return: void
+* _puts_recursion - prints a string, followed by a new line.
+* @s: string
+* Return: no return.
 */
 
 void _puts_recursion(char *s)
-
 {
 
-	if (*s == '\0')
+	if (*s != '\0')
 
 	{
 
-		putchar('\n');
+		putchar(*s);
 
-		return;
+		puts_recursion(s + 1);
 
 	}
 
-	putchar (*s);
+	else
 
-	puts_recursion(s + 1);
+		putchar('\n');
 
 }
