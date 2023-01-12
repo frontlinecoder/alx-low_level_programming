@@ -35,7 +35,7 @@ char **strtow(char *str)
 	if (words == NULL)
 		return (NULL);
 
-	util(words, str);	
+	util(words, str);
 	words[len] = NULL;
 	return (words);
 }
